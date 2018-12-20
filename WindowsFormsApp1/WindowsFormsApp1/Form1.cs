@@ -32,6 +32,7 @@ namespace WindowsFormsApp1
         int G;
         int B;
         int pin;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             VideoCapTureDevices = new FilterInfoCollection(FilterCategory.VideoInputDevice);
